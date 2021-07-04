@@ -1,0 +1,284 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Exo:400,500,600,700');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior:smooth;
+}
+/* navigation */
+
+.navbar {
+  background-color: #000;
+}
+.navbar-brand {
+  font-size: 28px;
+  font-weight: 500;
+}
+.nav-link,
+a {
+  font-weight: 400;
+  color: #fff;
+}
+.nav-item {
+  font-weight: 400;
+  font-size: 18px;
+  padding-right: 0.7rem;
+  padding-left: 0.5rem;
+}
+/* navigation ends */
+
+/* intro page starts */
+.main {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+    url("images/cog-wheels-2125180_1920\ \(1\).jpg");
+  height: 100vh;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.logo {
+  color: greenyellow;
+  font-size: 26px;
+  font-family: "Poppins";
+  font-weight: 400;
+}
+
+.heading-1 {
+  padding-top: 300px;
+  text-align: center;
+}
+.heading-2 {
+  padding-top: 10px;
+  text-align: center;
+  font-weight: 300;
+}
+.heading {
+  font-size: 30px;
+  color: #afff38;
+}
+/* intro page ends */
+/*  services section starts */
+  .services{
+  padding-top: 80px;
+  width: 100%;
+ 
+  background-color: #000000;
+  color: #fff;
+  }
+
+  .bottom-line{
+  display: inline;
+  border-bottom: 2px solid greenyellow;
+  }
+  .card-body{
+    color: #000;
+  }
+  .text-1{
+    padding-top: 12px;
+    color: #fff;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .text-2{
+    color: rgb(241, 245, 20);
+    font-size: 20px;
+    font-weight: 400;
+    padding-top: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;  
+  }
+.card{
+  /* box-shadow: 0 0 8px 0 #919191; */
+  border: none;
+}
+  .inner{
+    overflow: hidden;
+  }
+  .inner img{
+    transition: all 1.5s ease ;
+  }
+  .inner:hover img {
+    transform: scale(1.5);
+  }
+/* section ends */
+
+/* Gallery starts */
+
+.gallery{
+  align-items: center;
+  justify-content: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+background-color: #000000;
+ 
+}
+.title-1{
+  font-family: 'Exo', sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2;
+ color: #fcff42;
+}
+.title-2{
+  font-weight: 400;
+ 
+  color: #001aff;
+  padding-bottom: 20px;
+}
+/* gallery  ends */
+/* contact section starts */
+.contact_us{
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
+  url("images/mountains-1112911_1280.jpg");
+color: white;
+background-repeat: no-repeat;
+background-size: cover;
+}
+.contact_heading{
+  color: #fff;
+  padding-top: 75px;
+}
+.content{
+  color: #fff;
+  padding-bottom: 10px;
+}
+.details{
+text-align: center;
+padding-top: 40px;
+  color: white;
+}
+.icon_text{
+  color: #fcff42;
+  font-size: 16px;
+  font-weight: 500;
+}
+.btn{
+  border-radius: 50px;
+}
+/* contact section ends */
+/* about section starts */
+.about{
+  background-color: black;
+  color: #fff;
+}
+.about_heading-1{
+  padding-top: 110px;
+  padding-bottom: 30px;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: 'Exo' sans-serif;
+  font-weight: 500;
+}
+.about_heading-2{
+  font: 22px;
+  color: #afff38;
+}
+.about-card{
+  border: #afff38 2px solid;
+  border-radius:70px;
+  height: 95px;
+  width: 95px;
+  text-align: center;
+  padding-top: 20px;
+ align-items: center;
+}
+.name_heading{
+  color: #001aff;
+  text-align: center;
+}
+.name{
+  color: hsl(84, 100%, 61%);
+  text-align: center;
+}
+.card-title{
+  font-size: 14px;
+}
+.card-text{
+  font-size: 16px;
+  font-weight: 700;
+}
+
+
+/* about section ends */
+/*footer*/
+.footer-links{
+  text-align: center;
+
+}
+.footer-item{
+  margin-bottom: 10px;
+}
+.quick-links,.Text,.product{
+  color: greenyellow;
+  text-transform:uppercase ;
+}
+.product{
+  margin-bottom: 10px;
+  text-align: center;
+  color: white;
+}
+.text-3{
+  padding: 0 30px 0 30px;
+  text-align: center;
+  color: white;
+}
+.foo{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+}
+.foo-1{
+  text-align: center;
+  font-size: 14px;
+  font-weight: 400;
+  color: white;
+}
+.foo-2{
+  font-size: 14px;
+  font-weight: 400;
+  color: #afff38;
+}
+.footer-2{
+  background-color: black;
+  padding-bottom: 5px;
+}
+.follow{
+  color: greenyellow;
+  text-transform:uppercase ;
+  margin-right: 80px;
+}
+
+
+.s-icons {
+  padding: 20px;
+  margin-right: 20px;
+  width: 55px;
+  /* text-align: center; */
+  text-decoration: none;
+  border-radius: 50%;
+}
+
+/* Facebook */
+.fa-facebook {
+  background: #00236e6b;
+  color: white;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-youtube {
+  background: #ff0000;
+  color: white;
+}
+.fa-instagram{
+  background: #750229;
+
+}
